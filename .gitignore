@@ -1,0 +1,64 @@
+
+# ==============================
+# Python environment
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+
+# ==============================
+# Environment variables / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# Datasets (large files)
+# ==============================
+datasets/
+
+# ==============================
+# Input videos
+# ==============================
+videos/
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# ==============================
+# Generated outputs and reports
+# ==============================
+outputs/
+runs/
+*.log
+
+# ==============================
+# Trained model files
+# ==============================
+*.pt
+*.pth
+*.onnx
+*.engine
+*.pkl
+*.joblib
+
+# ==============================
+# Python / IDE files
+# ==============================
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
